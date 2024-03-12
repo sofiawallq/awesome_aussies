@@ -80,6 +80,8 @@ nav {
 .nav-toggle-label {
     font-size: 1.5rem;
     padding: 0 5px;
+    background-color: #c8d9e9;
+    display: flex;
 }
 
 /*Links*/
