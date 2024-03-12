@@ -3,7 +3,7 @@
 
 /*General styles*/
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -30,7 +30,14 @@ header {
 .headline {
     color: black;
     font-family: 'Courgette', sans-serif;
-    padding: 0 10px;
+    padding: 5px 10px;
+}
+
+#tagline-header {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    padding: 10px 5px;
+    margin: 120px 50px 0px 10px;
 }
 
 /*Navigation menu*/
@@ -82,10 +89,10 @@ a, a:visited {
 
 /*Main content*/
 main {
-    background-color: blue;
+    background-color: #ffffff;
     flex: 1 0 auto;
     display: block;
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 /*Footer*/
@@ -135,4 +142,7 @@ footer {
         display: none;
     }
 
+    main {
+        margin: 400px 5px 0 5px;
+    }
 }
