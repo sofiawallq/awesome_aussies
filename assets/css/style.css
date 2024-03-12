@@ -1,4 +1,5 @@
 /*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 /*General styles*/
 body {
@@ -13,7 +14,6 @@ header {
     background-color: #ffffff;
     position: fixed;
     width: 100%;
-    display: flex;
     align-items: baseline;
 }
 
@@ -29,6 +29,7 @@ header {
 
 .headline {
     color: black;
+    font-family: 'Courgette', sans-serif;
 }
 
 /*Navigation menu*/
@@ -81,7 +82,8 @@ a, a:visited {
 main {
     background-color: blue;
     flex: 1 0 auto;
-    margin-top: auto;
+    display: block;
+    margin-top: 300px;
 }
 
 /*Footer*/
@@ -106,7 +108,7 @@ footer {
 @media screen and (min-width: 768px) {
     /*Header*/
     
-    .bakcground-image {
+    .background-image {
     width: 100vw;
     height: 300px;
     background-size: cover;
@@ -128,7 +130,4 @@ footer {
         display: none;
     }
 
-    main {
-        margin-top: 56px;
-    }
 }
