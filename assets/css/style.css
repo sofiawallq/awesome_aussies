@@ -30,6 +30,7 @@ header {
 .headline {
     color: black;
     font-family: 'Courgette', sans-serif;
+    padding: 0 10px;
 }
 
 /*Navigation menu*/
@@ -70,7 +71,8 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 0 5px;
 }
 
 /*Links*/
@@ -107,13 +109,16 @@ footer {
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
     /*Header*/
-    
     .background-image {
     width: 100vw;
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
+    }
+
+    .headline {
+        font-size: 3rem;
     }
 
     nav {
