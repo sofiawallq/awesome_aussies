@@ -5,6 +5,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 /*Header*/
@@ -12,15 +13,23 @@ header {
     background-color: #ffffff;
     position: fixed;
     width: 100%;
-
     display: flex;
     align-items: baseline;
 }
 
-#headline {
-    color: black;
+.background-image {
+    background-image: url(../images/header_image_aussie.jpg);
+    width: 100vw;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
 }
 
+.headline {
+    color: black;
+}
 
 /*Navigation menu*/
 
@@ -72,13 +81,14 @@ a, a:visited {
 main {
     background-color: blue;
     flex: 1 0 auto;
-    margin-top: 80px;
+    margin-top: auto;
 }
 
 /*Footer*/
 footer {
     background-color: #c8d9e9;
-    flex: 1 0 auto;
+    display: block;
+    margin-top: auto;
 }
 
 #social-networks {
@@ -90,4 +100,35 @@ footer {
     color: black;
     list-style-type: none;
     text-decoration: none;
+}
+
+/*Media query for tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+    /*Header*/
+    
+    .bakcground-image {
+    width: 100vw;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    }
+
+    nav {
+        display: block;
+        position: absolute;
+        width: 100%;
+    }
+
+    #navigation-menu {
+        display: flex;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    main {
+        margin-top: 56px;
+    }
 }
