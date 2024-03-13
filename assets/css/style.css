@@ -16,8 +16,9 @@ h1, h2 {
 /*Header*/
 header {
     background-color: #ffffff;
-    position: fixed;
+    position: relative;
     width: 100%;
+    margin: auto;
     align-items: baseline;
 }
 
@@ -39,7 +40,7 @@ header {
 
 #tagline-header {
     background-color: rgba(255, 255, 255, 0.7);
-    position: fixed;
+    position: relative;
     padding: 10px 5px;
     margin: 120px 50px 0px 10px;
 }
@@ -97,7 +98,14 @@ main {
     background-color: #ffffff;
     flex: 1 0 auto;
     display: block;
-    margin-top: 350px;
+    max-width: 100%;
+}
+
+.aussie-images {
+    display: inline-block;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
 }
 
 /*Contact page*/
@@ -200,6 +208,8 @@ footer {
 
     /*Main content*/
     main {
-        margin: 400px 5px 0 5px;
+        display: block;
+        position: ;
+        margin: auto;
     }
 }
