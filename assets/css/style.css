@@ -182,6 +182,7 @@ footer {
         display: block;
         position: absolute;
         width: 100%;
+
     }
 
     .menu-item {
@@ -190,6 +191,7 @@ footer {
 
     #navigation-menu {
         display: flex;
+        justify-content: flex-end;
     }
 
     .nav-toggle-label {
