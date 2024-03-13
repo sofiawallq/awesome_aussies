@@ -100,7 +100,6 @@ main {
 /*Contact page*/
 
 contact {
-    color:
     background-color: rgba(60, 60, 60, 0.6);
     background-size: cover;
     background-position: 75%;
@@ -111,22 +110,22 @@ contact {
 
 .text-input {
     background: transparent;
-    color: #fafafa; 
+    color: black; 
     width: 100%;
     height: 40px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    margin: 10px;
+    border: 1px solid black;
     border-radius: 2px;   
     padding: 0 5px;
 }
 
 .submit-button {
     border-radius: 2px;
-    background-color: #454b1b;
+    background-color: black;
     color: #fafafa;
     font-size: 100%;
     padding: 15px 32px;
-    margin-top: 20px;
+    margin-top: 20px 0;
 }
 
 /*Footer*/
