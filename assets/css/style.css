@@ -110,7 +110,7 @@ main {
     display: block;
     text-align: center;
     padding: 20px 10px 0 0px;
-    margin: 20px 0;
+    margin: auto;
 }
 
 #contact-form {
