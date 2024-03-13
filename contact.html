@@ -34,26 +34,48 @@
     <label for="nav-toggle" class="nav-toggle-label">Menu</label>
     <nav>
         <ul id="navigation-menu">
-            <li class="menu-item" class="active"><a href="index.html">Home</a></li>
+            <li class="menu-item"><a href="index.html">Home</a></li>
             <li class="menu-item">About the breed</li>
             <li class="menu-item">Markings</li>
             <li class="menu-item">Maintenance</li>
-            <li class="menu-item"><a href="contact.html">Contact</a></li>
+            <li class="menu-item" class="active"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     </header>
 
-    <!--Main content-->
+<!--Main content-->
     <main>
-        <section>
-            <h2>Appearance</h2>
-            <p>The Australian Shepherd is a medium-sized, athletic breed; they typically stand between 18 and 23 inches (46 and 58 cm) and weigh between 35 and 70 pounds (16 and 32 kg).[2][4] The parent club, the Australian Shepherd Club of America’s breed standard states male dogs should stand between 20 and 23 inches (51 and 58 cm) and females between 18 and 21 inches (46 and 53 cm), at the withers; the standard does allow individual animals to exceed these limits slightly.</p>
+    
+
+        <section id="signup">
+            <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+            <form action="https://formdump.codeinstitute.net" method="post" id="signup-form">
+                
+                <label for="first_name">First name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_adress">Email Adress</label>
+                <input type="text" name="email_adress" id="email_adress" class="text-input" required>
+                <br>
+            <div class="radio-buttons"> 
+                <div><label for="road">Road</label>
+                <input type="radio" name="running-preference" id="road" value="road" required checked></div>
+                <div><label for="trail">Trail</label>
+                <input type="radio" name="running-preference" id="trail" value="trail" required></div>
+                <div><label for="both">Both</label>
+                <input type="radio" name="running-preference" id="both" value="both" required></div>
+            </div>  
+                <input type="submit" class="join-button" value="Let's Run!">
+            </form>
         </section>
     </main>
-
-    <!--Footer-->
-    <footer>
-
+ 
+ <!--Footer-->
+ <footer>
+        
     <!--Social Media links--> 
         <ul id="social-networks">
             <li><a href="http://www.facebook.com" target="_blank" rel="noopener"

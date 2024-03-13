@@ -54,13 +54,13 @@ nav {
     text-align: left;
     font-size: 110%;
     padding:0 10px;
-    letter-spacing: 2px;
+    letter-spacing: 10px;
     list-style-type: none;
 }
 
 .menu-item {
     display: block;
-    padding: 0 5px;
+    padding: 0 10px;
     font-weight: bold;
 }
 
@@ -97,17 +97,65 @@ main {
     margin-top: 350px;
 }
 
+/*Contact page*/
+
+#signup {
+    background-image: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10px 0 10px;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa; 
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;   
+    padding: 0 5px;
+}
+
+#radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    padding: 15px 32px;
+    margin-top: 20px;
+}
+
 /*Footer*/
 footer {
     background-color: #c8d9e9;
     display: block;
-    margin-top: auto;
 }
 
+/*Social media icons*/
 #social-networks {
     text-align: center;
-    padding: 10px 0;
     display: flex;
+    padding: 10px 0;
+    margin: 0;
     justify-content: space-evenly;
     font-size: 20px;
     color: black;
@@ -117,6 +165,7 @@ footer {
 
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+    
     /*Header*/
     .background-image {
     width: 100vw;
@@ -130,6 +179,7 @@ footer {
         font-size: 3rem;
     }
 
+    /*Navigation*/
     nav {
         display: block;
         position: absolute;
@@ -144,6 +194,7 @@ footer {
         display: none;
     }
 
+    /*Main content*/
     main {
         margin: 400px 5px 0 5px;
     }
