@@ -44,7 +44,7 @@ header {
     position: relative;
     display: inline-block;
     padding: 10px 10px;
-    margin: 140px 60px 0px 5px;
+    margin: 130px 60px 0px 5px;
 }
 
 /*Navigation menu*/
@@ -213,6 +213,7 @@ footer {
     #navigation-menu {
         display: flex;
         justify-content: flex-end;
+        margin-top: 0;
     }
 
     .nav-toggle-label {
