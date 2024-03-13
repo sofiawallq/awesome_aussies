@@ -102,6 +102,10 @@ main {
     max-width: 100%;
 }
 
+p {
+    text-align: justify;
+}
+
 .aussie-images {
     display: inline-block;
     margin: auto;
@@ -180,6 +184,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
+    margin: auto;
     }
 
     .headline {
