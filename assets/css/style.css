@@ -99,7 +99,7 @@ a, a:visited {
 main {
     background-color: #ffffff;
     flex: 1 0 auto;
-    display: block;
+    display: flex;
     max-width: 100%;
 }
 
@@ -112,6 +112,7 @@ p {
     margin: auto;
     height: auto;
     max-width: 100%;
+    border-radius: 50%;
 }
 
 /*Contact page*/
@@ -249,5 +250,19 @@ footer {
         font-size: 2rem;
         padding: 15px;
         margin: 160px 0px 0px 20px;
+    }
+
+    #about {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .about-text {
+        flex: 1 1 50px;
+    }
+
+    .aussie-images {
+        flex: 1 1 50 px;
     }
 }
