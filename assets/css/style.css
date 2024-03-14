@@ -103,6 +103,15 @@ main {
     max-width: 100%;
 }
 
+#img-landing-page {
+    display: inline-block;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+
+/*About page*/
 p {
     text-align: justify;
 }
