@@ -103,15 +103,18 @@ main {
 }
 
 #img-landing-page {
-    display: inline-block;
-    height: auto;
-    margin: auto;
+    display: block;
     max-width: 100%;
-    object-fit: contain;
+    max-height: 100%;
+    margin: auto;
 }
 
 /*About page*/
-p {
+.about-text {
+    margin: 2%;
+}
+
+.about-text p {
     text-align: justify;
 }
 
