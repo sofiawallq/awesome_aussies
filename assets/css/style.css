@@ -155,7 +155,6 @@ main {
     padding: 0 5px;
 }
 
-
 .submit-button {
     border-radius: 2px;
     background-color: black;
@@ -270,18 +269,17 @@ main {
     margin: 160px 0px 0px 20px;
 }
 
-/*Main content*/
-#about {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+#navigation-menu {
+    font-size: 150%;
 }
 
+/*Main content*/
 .about-text {
-    flex: 1 1 50px;
+    font-size: 140%;
 }
 
 .aussie-images {
-    flex: 1 1 50 px;
+    max-width: 80%;
 }
+
 }
