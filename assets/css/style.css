@@ -68,7 +68,7 @@ nav {
     display: block;
 }
 
-.active {
+#active {
     border-bottom: 1px solid black;
 }
 
@@ -113,6 +113,12 @@ main {
 /*Links to external kennels*/
 .kennel-links {
     font-weight: bold;
+    background-color: #c8d9e9;
+    padding: 30px;
+    margin: 10%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
 }
 
 /*About page*/
