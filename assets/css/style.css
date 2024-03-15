@@ -36,6 +36,7 @@ header {
     color: black;
     font-family: 'Courgette', sans-serif;
     padding: 5px 20px;
+    text-decoration: none;
 }
 
 #tagline-header {
@@ -62,6 +63,7 @@ nav {
     padding:0 10px;
     letter-spacing: 2px;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .menu-item {
