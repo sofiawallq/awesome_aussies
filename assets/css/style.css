@@ -35,7 +35,7 @@ header {
 .headline {
     color: black;
     font-family: 'Courgette', sans-serif;
-    padding: 5px 10px;
+    padding: 5px 20px;
 }
 
 #tagline-header {
@@ -108,6 +108,11 @@ main {
     max-height: 100%;
     margin: auto;
     margin-bottom: 30px;
+}
+
+/*Links to external kennels*/
+.kennel-links {
+    
 }
 
 /*About page*/
@@ -242,6 +247,38 @@ main {
     display: block;
     position: relative;
     margin: auto;
+}
+
+/*Contact page*/
+
+#contact {
+    background-color: #c8d9e9;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px 10px 0 0px;
+    margin: 30px auto 30px auto;
+}
+
+#contact-form {
+    margin: 20px;
+    text-align: center;
+}
+
+.text-input {
+    background: transparent;
+    color: black; 
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 2px;   
+    padding: 0 5px;
+}
+
+#question {
+    height: 120px;
 }
 }
 
