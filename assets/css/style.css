@@ -101,6 +101,7 @@ main {
     background-color: #ffffff;
     flex: 1 0 auto;
     display: flex;
+    text-align: justify;
     max-width: 100%;
 }
 
@@ -132,6 +133,7 @@ main {
 
 /*About page*/
 .about-text {
+    display: block;
     margin: 2%;
 }
 
@@ -140,8 +142,9 @@ main {
 }
 
 .aussie-images {
-    display: inline-block;
+    display: block;
     height: auto;
+    text-align: center;
     max-width: 90%;
     border-radius: 50%;
     margin: 5%;
@@ -298,11 +301,13 @@ main {
 
 /*Main content*/
 .about-text {
+    display: inline-block;
     font-size: 140%;
 }
 
 .aussie-images {
+    display: inline-block;
     max-width: 80%;
+    text-align: center;
 }
-
 }
