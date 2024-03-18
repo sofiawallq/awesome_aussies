@@ -3,312 +3,313 @@
 
 /*General styles*/
 body {
-    font-family: 'Arimo', Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  font-family: 'Arimo', Helvetica, sans-serif;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-h1, h2 {
-    font-weight: bold;
+h1,
+h2 {
+  font-weight: bold;
 }
 
 /*Header*/
 header {
-    background-color: #ffffff;
-    position: relative;
-    width: 100%;
-    margin: auto;
-    align-items: baseline;
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  align-items: baseline;
 }
 
 .background-image {
-    background-image: url(../images/header_image_aussie.jpg);
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: auto;
+  background-image: url(../images/header_image_aussie.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
 }
 
 .headline {
-    color: black;
-    font-family: 'Courgette', sans-serif;
-    padding: 5px 20px;
-    text-decoration: none;
+  color: black;
+  font-family: 'Courgette', sans-serif;
+  padding: 5px 20px;
+  text-decoration: none;
 }
 
 #tagline-header {
-    background-color: rgba(255, 255, 255, 0.7);
-    position: relative;
-    display: inline-block;
-    padding: 10px 10px;
-    margin: 130px 60px 0px 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  padding: 10px 10px;
+  margin: 9rem 5rem 0.5rem 0.5rem;
 }
 
 /*Navigation menu*/
 
 nav {
-    position: absolute;
-    background-color: #c8d9e9;
-    width: 100%;
-    display: none;
-    top: 100%;
+  position: absolute;
+  background-color: #c8d9e9;
+  width: 100%;
+  display: none;
+  top: 100%;
 }
 
 #navigation-menu {
-    text-align: left;
-    font-size: 110%;
-    padding:0 10px;
-    letter-spacing: 2px;
-    list-style-type: none;
-    text-decoration: none;
+  text-align: left;
+  font-size: 110%;
+  padding: 0 10px;
+  letter-spacing: 2px;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .menu-item {
-    display: block;
+  display: block;
 }
 
 #active {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 /*Nav toggle*/
 #nav-toggle:checked~nav {
-    display: block;
+  display: block;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 .nav-toggle-label {
-    font-size: 1.5rem;
-    padding: 5px 5px;
-    background-color: #c8d9e9;
-    display: flex;
-    font-weight: bold;
+  font-size: 1.5rem;
+  padding: 5px 5px;
+  background-color: #c8d9e9;
+  display: flex;
+  font-weight: bold;
 }
 
 /*Links*/
-a, a:visited {
-    color: black;
+a,
+a:visited {
+  color: black;
 }
 
 /*Main content*/
 main {
-    background-color: #ffffff;
-    flex: 1 0 auto;
-    display: flex;
-    text-align: justify;
-    max-width: 100%;
+  background-color: #ffffff;
+  text-align: justify;
+  max-width: 100%;
 }
 
 #img-landing-page {
-    display: flex;
-    max-width: 100%;
-    max-height: 100%;
-    margin: auto;
-    margin-bottom: 30px;
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 /*Links to external kennels*/
 #kennels {
-    display: block;
-    flex-wrap: wrap;
-    position: relative;
-    padding: 40px;
+  display: flex;
+  position: relative;
+  padding: 10px 0;
 }
 
 #kennels div {
-    background-color: #c8d9e9;
-    font-weight: bold;
-    padding: 30px;
-    text-align: center;
-    flex-basis: 100px;
-    flex-grow: 1;
-    border: 1px solid black;
-    border-radius: 50%;
+  background-color: #c8d9e9;
+  font-weight: bold;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 /*About page*/
 .about-text {
-    display: block;
-    margin: 2%;
+  display: block;
+  margin: 2%;
 }
 
 .about-text p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .aussie-images {
-    display: block;
-    height: auto;
-    text-align: center;
-    max-width: 90%;
-    border-radius: 50%;
-    margin: 5%;
+  display: block;
+  height: auto;
+  text-align: center;
+  max-width: 90%;
+  border-radius: 50%;
+  margin: 5%;
 }
 
 /*Contact page*/
 
 #contact {
-    background-color: #c8d9e9;
-    background-size: cover;
-    width: 80%;
-    display: block;
-    text-align: center;
-    padding: 20px 10px 0 0px;
-    margin: 30px auto 30px auto;
+  background-color: #c8d9e9;
+  background-size: cover;
+  width: 80%;
+  display: block;
+  text-align: center;
+  padding: 20px 10px 0 0px;
+  margin: 40px auto;
 }
 
 #contact-form {
-    margin: 20px;
-    text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
 .text-input {
-    background: transparent;
-    color: black; 
-    width: 100%;
-    height: 30px;
-    margin: 10px 0;
-    border: 1px solid black;
-    border-radius: 2px;   
-    padding: 0 5px;
+  background: transparent;
+  color: black;
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 2px;
+  padding: 0 5px;
 }
 
 .submit-button {
-    border-radius: 2px;
-    background-color: black;
-    color: #fafafa;
-    font-size: 100%;
-    padding: 15px 32px;
-    margin: 20px 0;
+  border-radius: 2px;
+  background-color: black;
+  color: #fafafa;
+  font-size: 100%;
+  padding: 15px 32px;
+  margin: 20px 0;
 }
 
 #question {
-    height: 80px;
+  height: 80px;
 }
 
 /*Footer*/
 footer {
-    background-color: #c8d9e9;
-    display: block;
+  background-color: #c8d9e9;
+  display: block;
 }
 
 /*Social media icons*/
 #social-networks {
-    text-align: center;
-    display: flex;
-    padding: 10px 0;
-    margin: 0;
-    justify-content: space-evenly;
-    font-size: 20px;
-    color: black;
-    list-style-type: none;
-    text-decoration: none;
+  text-align: center;
+  display: flex;
+  padding: 10px 0;
+  margin: 0;
+  justify-content: space-evenly;
+  font-size: 20px;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
-/*General styles*/
-body {
+  /*General styles*/
+  body {
     margin: 20px;
-}
+  }
 
-/*Header*/
-.background-image {
+  /*Header*/
+  .background-image {
     width: 100%;
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
     margin: auto;
-}
+  }
 
-.headline {
+  .headline {
     font-size: 3rem;
-}
+  }
 
-#tagline-header {
+  #tagline-header {
     width: 35%;
     font-size: 1.2rem;
-    padding: 15px;
-    margin: 90px 0px 0px 10px;
-}
+    padding: 15px 10px;
+    margin: 7rem 5.5rem 1rem 1rem;
+  }
 
-/*Navigation*/
-nav {
+  /*Navigation*/
+  nav {
     display: block;
     position: relative;
-     width: 100%;
-}
+    width: 100%;
+  }
 
-.menu-item {
+  .menu-item {
     padding: 10px 10px;
-}
+  }
 
-#navigation-menu {
+  #navigation-menu {
     display: flex;
     justify-content: flex-end;
     margin-top: 0;
-}
+  }
 
-.nav-toggle-label {
+  .nav-toggle-label {
     display: none;
-}
+  }
 
-/*Main content*/
-main {
+  /*Main content*/
+  main {
     display: block;
     position: relative;
     margin: auto;
-}
+  }
 
-/*Contact page*/
-
+  /*Contact page*/
 }
 
 /*Media query for laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
 
-/*Header*/
-.background-image {
+  /*Header*/
+  .background-image {
     width: 100%;
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
     margin: auto;
-}
+  }
 
-.headline {
+  .headline {
     font-size: 5rem;
-}
+  }
 
-#tagline-header {
-    width: 30%;
+  #tagline-header {
+    width: 35%;
     font-size: 2rem;
-    padding: 15px;
-    margin: 160px 0px 0px 20px;
-}
+    padding: 15px 10px;
+    margin: 12rem 5.5rem 1rem 1rem;
+  }
 
-#navigation-menu {
+  #navigation-menu {
     font-size: 150%;
-}
+  }
 
-/*Main content*/
-.about-text {
+  /*Main content*/
+  .about-text {
     display: inline-block;
     font-size: 140%;
-}
+  }
 
-.aussie-images {
+  .aussie-images {
     display: inline-block;
     max-width: 80%;
     text-align: center;
-}
+  }
+
+  /*Contact page*/
+  #contact {
+    width: 60%;
+    margin: 40px auto;
+  }
 }
