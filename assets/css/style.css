@@ -105,7 +105,7 @@ main {
 }
 
 #img-landing-page {
-    display: block;
+    display: flex;
     max-width: 100%;
     max-height: 100%;
     margin: auto;
@@ -113,12 +113,19 @@ main {
 }
 
 /*Links to external kennels*/
-.kennel-links {
-    font-weight: bold;
+#kennels {
+    display: block;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+#kennels div {
     background-color: #c8d9e9;
+    font-weight: bold;
     padding: 30px;
-    margin: 10%;
     text-align: center;
+    flex-basis: 100px;
+    flex-grow: 1;
     border: 1px solid black;
     border-radius: 50%;
 }
