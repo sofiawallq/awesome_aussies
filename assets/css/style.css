@@ -134,7 +134,7 @@ main {
 /*About page*/
 .about-text {
   display: block;
-  margin: 2%;
+  margin: 10px;
 }
 
 .about-text p {
@@ -145,9 +145,9 @@ main {
   display: block;
   height: auto;
   text-align: center;
-  max-width: 90%;
+  max-width: 85%;
   border-radius: 50%;
-  margin: 5%;
+  margin: 20px auto;
 }
 
 /*Contact page*/
@@ -200,6 +200,7 @@ main {
 footer {
   background-color: #c8d9e9;
   display: block;
+  margin-top: 30px;
 }
 
 /*Social media icons*/
@@ -272,13 +273,26 @@ footer {
     margin: auto;
   }
 
+  .aussie-images {
+    max-width: 80%;
+    margin: 40px auto;
+  }
+
   /*Contact page*/
+  #contact {
+    margin-top: 60px;
+  }
+
   #contact-form {
     margin: 40px 60px;
   }
 
   #contact-headline {
     font-size: 2rem;
+  }
+
+  footer {
+    margin-top: 60px;
   }
 }
 
@@ -314,13 +328,15 @@ footer {
   /*Main content*/
   .about-text {
     display: inline-block;
-    font-size: 140%;
+    font-size: 1.5rem;
+    margin: 20px;
   }
 
   .aussie-images {
-    display: inline-block;
-    max-width: 80%;
+    display: block;
+    max-width: 60%;
     text-align: center;
+    margin: 20px auto 30px auto;
   }
 
   /*Contact page*/
@@ -344,6 +360,12 @@ footer {
   /*Navigation menu*/
   #navigation-menu {
     font-size: 2rem;
+  }
+
+  /*About page*/
+  .about-text {
+    margin: auto 30px;
+    font-size: 1.7rem;
   }
 
   /*Contact page*/
