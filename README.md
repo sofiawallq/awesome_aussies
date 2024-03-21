@@ -5,7 +5,9 @@ Awesome Aussies is a websites that hopefuly targets an audience that is thinking
 The puropse of the page is not komersiellt but to provide the user with useful knowledge 
 
 ## Features
+
 ### Existing Features
+
 __Navigation Bar__
 
 + The navigation bar is featured on all three pages of the websites and includes links to all the different pages. It helps the user find its way the Home page/landing page, the About Page and an Contact page for further questions. 
@@ -17,12 +19,15 @@ Decided to name it ”menu” for familiarity on smaller devices
 Color picked from header
 
 
+
 __The landing page header__
 
 The landing page includes a header with an image of an Australian Shepherd to quickly give the user a feeling of the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content so that the visitor can quickly deside if it’s worth to continue scrolling.
 The chosen header-images also set the color-scheme for the rest of the page, to keep the layout consistent and harmonising throughout the different features on the webpage.
 
-![printscreen header](assets/images_readme/header)
+![printscreen header](assets/images_readme/header.jpg)
+
+
 
 __Content of the landing page__
 
@@ -30,11 +35,14 @@ Below the header and navigation menu (which is discussed in section above) the u
 Also to validate the people behind the page 
 
 
+
 Links to kennels 
 Below the text content and another image are some links to different validated kennels if the user is interested in learning more about the buying-process itself and have come a little further in their descission-making. If the time weren’t as limited I think it would have been good to create a entire new page about this in the menu to the user to chose from, but that would have made the project a little to big for the time at hand since it requres a lot of research and collecting info and data from a lot of external sources. 
 
 
 For this page the index.html file implements the content with additional styling found in the style.css file deployed through the assets-folder. 
+
+
 
 __The Footer__
 
@@ -44,11 +52,14 @@ __The Footer__
 Again the same color used as in the navigation menu and other features on the page
 
 
+
 __About the breed Page__
 
 This page is probably the most valuable page to the user, since it contains
 
 The content of the about-page comes from the 
+
+
 
 __Contact Page__
 
@@ -59,7 +70,8 @@ The Contact-form is responsive to all devices and the text changes size accordin
 This page gets its content from the contact.html file, and its looks and features from style.css. 
 
 
-###Features left to Implement
+
+### Features left to Implement
 
 Possible additional pages 
 For this website to be of actual use to a user that is about to purschase a new dog, a page filled with links to different types of kennels would be a good idea som that the user can navigate further once the current webpage has filled it’s purpose. 
