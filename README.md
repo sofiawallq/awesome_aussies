@@ -22,7 +22,7 @@ __The landing page header__
 The landing page includes a header with an image of an Australian Shepherd to quickly give the user a feeling of the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content so that the visitor can quickly deside if it’s worth to continue scrolling.
 The chosen header-images also set the color-scheme for the rest of the page, to keep the layout consistent and harmonising throughout the different features on the webpage.
 
-![](assets/images_readme/header)
+![printscreen header](assets/images_readme/header)
 
 __Content of the landing page__
 
@@ -85,16 +85,16 @@ The link to the live project-site can be found here:
 ## Credits
 
 ### Content
-+ The text for the different sections on the About the breed page were taken form Wikipedia (länk) and [The farmers dog](länk https://www.thefarmersdog.com/digest/australian-shepherd-care-guide/) since the project is about the form and function, and not so much about the actual content of the paragraphs. 
++ The text for the different sections on the About the breed page were taken form Wikipedia (länk) and [The farmers dog](https://www.thefarmersdog.com/digest/australian-shepherd-care-guide/) since the project is about the form and function, and not so much about the actual content of the paragraphs. 
 + The drop down menu for mobile devices was created with some code from the Love Running code along-project, altered to fit this pages layout. 
-+ The Favicon was created with the help of favicon.io (länk!)
-+ All the social media icons in the footer were taken from Font Awesome
++ The Favicon was created with the help of [favicon.io](https://favicon.io/logo-generator/)
++ All the social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 + To pick the color scheme for the page I used [Image Color Picker](https://imagecolorpicker.com/en) on the header image. 
-+ The Stack Overflow (länk) forum has been my go-to whenever it got stuck with mainly CSS and needed to find my way out. 
++ The [Stack Overflow](https://stackoverflow.com/) forums has been my go-to whenever it got stuck with mainly CSS and needed to find my way out. 
 
 ### Media
-+ All the pictures used in the project – the header image, the image used in the content on the landing page and the images in the About the breed-section were all taken from the Open Source page Pexels (länka!). 
-+ All of the images were run through Tinipng (länk!) to make the “lighter” and adapted for display on the web – so that the page doesn’t take to long to load because of heavy image files. 
++ All the pictures used in the project – the header image, the image used in the content on the landing page and the images in the About the breed-section were all taken from the Open Source page [Pexels](https://www.pexels.com/sv-se/). 
++ All of the images were run through [Tinypng](https://tinypng.com/) to make them “lighter” and adapted for display on the web – so that the page doesn’t take to long to load because of heavy image files. 
 + Some of the images used were cropped with the help of Photoshop Express. 
 
 
