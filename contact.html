@@ -2,83 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Metatags for search engines-->
-    <meta name="description" content="Awesome Aussies. All you need to know about the dog breed Australian Shepherd.">
-    <meta name="keywords" content="dog, breed, sheepdog, australian shepherd, aussie, puppies, marking, care, maintenance, exercise">
-    <meta name="author" content="Sofias page about Australian Shepherds">
-    <!--Title-->
-    <title>Awesome Aussies</title>
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Metatags for search engines-->
+  <meta name="description" content="Awesome Aussies. All you need to know about the dog breed Australian Shepherd.">
+  <meta name="keywords"
+    content="dog, breed, sheepdog, australian shepherd, aussie, puppies, marking, care, maintenance, exercise">
+  <meta name="author" content="Sofias page about Australian Shepherds">
+  <!--Title-->
+  <title>Awesome Aussies</title>
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <!--Header-->
-    <header>
-        <div class="background-image">
-        <h1 class="headline"><a href="index.html">Awesome Aussies</a></h1>
-        <p id="tagline-header">All you need to know about this intelligent and fun loving breed!</p></div>
+  <!--Header-->
+  <header>
+    <div class="header-container">
+      <h1 id="headline"><a href="index.html">Awesome Aussies</a></h1>
+      <p id="tagline-header">All you need to know about this intelligent and fun loving breed!</p>
+    </div>
 
 
     <!--Navigation menu-->
     <input type="checkbox" id="nav-toggle" name="nav-toggle">
     <label for="nav-toggle" class="nav-toggle-label">Menu</label>
     <nav>
-        <ul id="navigation-menu">
-            <li class="menu-item"><a href="index.html">Home</a></li>
-            <li class="menu-item"><a href="about.html">About the breed</a></li>
-            <li class="menu-item" id="active"><a href="contact.html">Contact</a></li>
-        </ul>
+      <ul id="navigation-menu">
+        <li class="menu-item"><a href="index.html">Home</a></li>
+        <li class="menu-item"><a href="about.html">About the breed</a></li>
+        <li class="menu-item" id="active"><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-    </header>
+  </header>
 
-<!--Main content-->
-    <main>
-        <section id="contact">
-            <h2>Send us your questions!</h2>
-            <form action="https://formdump.codeinstitute.net" method="post" id="contact-form" autocomplete="on">
-                <label for="first_name">First name</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
-                <br>
-                <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
-                <br>
-                <label for="email_adress">Email Adress</label>
-                <input type="text" name="email_adress" id="email_adress" class="text-input" required>
-                <br>
-                <label for="question">Write your question here:</label>
-                <textarea name="textarea" cols="1" rows="8" id="question" class="text-input" required></textarea>
-                <br>
-                <input type="submit" class="submit-button" value="Send">
-            </form>
-        </section>
-    </main>
- 
- <!--Footer-->
- <footer>
-        
-    <!--Social Media links--> 
-        <ul id="social-networks">
-            <li><a href="http://www.facebook.com" target="_blank" rel="noopener"
-            aria-label="Link to our Facebook page (opens in new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
-            <li><a href="http://www.instagram.com" target="_blank" rel="noopener"
-                aria-label="Link to our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="http://www.twitter.com" target="_blank" rel="noopener"
-                aria-label="Link to our Twitter/X page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="http://www.youtube.com" target="_blank" rel="noopener"
-                aria-label="Link to our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a></li>
-        </ul>    
-    </footer>
+  <!--Main content-->
+  <main>
+    <section id="contact">
+      <h2 id="contact-headline">Send us your questions!</h2>
+      <form action="https://formdump.codeinstitute.net" method="post" id="contact-form" autocomplete="on">
+        <label for="first_name" class="contact-label">First name:</label>
+        <input type="text" name="first_name" id="first_name" class="text-input" required>
+        <br>
+        <label for="last_name" class="contact-label">Last Name:</label>
+        <input type="text" name="last_name" id="last_name" class="text-input" required>
+        <br>
+        <label for="email_adress" class="contact-label">Email Adress:</label>
+        <input type="text" name="email_adress" id="email_adress" class="text-input" required>
+        <br>
+        <label for="question" class="contact-label">Write your question here:</label>
+        <textarea name="textarea" cols="1" rows="8" id="question" class="text-input" required></textarea>
+        <br>
+        <input type="submit" class="submit-button" value="Send">
+      </form>
+    </section>
+  </main>
 
-    <!--Font Awesome kit-->
-    <script src="https://kit.fontawesome.com/4b24704efa.js" crossorigin="anonymous"></script>
+  <!--Footer-->
+  <footer>
+
+    <!--Social Media links-->
+    <ul id="social-networks">
+      <li><a href="http://www.facebook.com" target="_blank" rel="noopener"
+          aria-label="Link to our Facebook page (opens in new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+      </li>
+      <li><a href="http://www.instagram.com" target="_blank" rel="noopener"
+          aria-label="Link to our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="http://www.twitter.com" target="_blank" rel="noopener"
+          aria-label="Link to our Twitter/X page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="http://www.youtube.com" target="_blank" rel="noopener"
+          aria-label="Link to our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a></li>
+    </ul>
+  </footer>
+
+  <!--Font Awesome kit-->
+  <script src="https://kit.fontawesome.com/4b24704efa.js" crossorigin="anonymous"></script>
 
 </body>
 
