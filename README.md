@@ -1,8 +1,6 @@
 # Awesome Aussies
 
-Awesome Aussies is a websites that hopefuly targets an audience that is thinking about adding a new family member and are looking for some general knowledge about this particular breed – to be able to decide if this is the dog for them! It´s purpose is not to få folk att köpa but is supposed to function as a place of knowledge. It doens’t target the user who alreday own this type of dog but for the newbies. Hopefully it will provide some kött på benen to help people understand that this is the dog for them – or this is absolutely not the dog for them. 
-
-The puropse of the page is not komersiellt but to provide the user with useful knowledge 
+Awesome Aussies is a websites that targets an audience that is thinking about adding a new family member, and are looking for some general knowledge about this particular breed – to be able to decide if this is the dog for them! It´s purpose is not to encourage to buy the dog, but to provide some help in making that decision and is supposed to function as a place of knowledge. It doens’t target the user who alreday own this type of dog but acts as a support for the newbies. Hopefully it will provide the understanding of whether this is the dog for them – or absolutely not the dog for them. 
 
 ## Features
 
@@ -10,20 +8,20 @@ The puropse of the page is not komersiellt but to provide the user with useful k
 
 __Navigation Bar__
 
-+ The navigation bar is featured on all three pages of the websites and includes links to all the different pages. It helps the user find its way the Home page/landing page, the About Page and an Contact page for further questions. 
++ The navigation bar is featured on all three pages of the websites and includes links to all the different pages. It helps the user find its way to the Home page/landing page, the About Page and a Contact page for further questions. 
 
-+ The navigation bar is responsive and allows the user to jump between pages without having to use the ”back”-button. Furthermore the navigation bar has a drop down function for mobile devices so that it doesn’t take up to musch space on smaller devices. On larger devices such as tablets and laptops it is responsive and changes size accosrding to screen size. 
++ The navigation bar is responsive and allows the user to jump between pages without having to use the ”back”-button. Furthermore the navigation bar has a drop down function for mobile devices so that it doesn’t take up to much space on smaller devices. On larger devices such as tablets and laptops it is responsive and changes size according to screen size. 
 
-Decided to name it ”menu” for familiarity on smaller devices
++ I decided to name it ”menu” in the drop down version on smaller devices, basically because of the fact that everybody is familiar with the term and what they use a menu for.
 
-Color picked from header
++ The backgroundcolor for the navigation bar is picked from the header image so that they harmonize with each other. 
 
 
 
-__The landing page header__
+__The page header__
 
-The landing page includes a header with an image of an Australian Shepherd to quickly give the user a feeling of the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content so that the visitor can quickly deside if it’s worth to continue scrolling.
-The chosen header-images also set the color-scheme for the rest of the page, to keep the layout consistent and harmonising throughout the different features on the webpage.
++ The landing page (featured on all pages) includes a header with a image of an Australian Shepherd, to quickly give the user a feeling of what the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content so that the visitor can quickly deside if it’s worth to continue scrolling.
+The chosen header-images also set the color-scheme for the rest of the page, to keep the layout consistent and harmonizing throughout the different features on the webpage.
 
 ![printscreen header](assets/images_readme/header.jpg)
 
@@ -31,7 +29,7 @@ The chosen header-images also set the color-scheme for the rest of the page, to 
 
 __Content of the landing page__
 
-Below the header and navigation menu (which is discussed in section above) the user will find some additional general information about the page and it’s content – with the purpose of making it even clearer to the user that this is the page they were looking for. They will se the benefits of continuing reading and looking at the other content of the page. Hopefully this part will also make it crystal clear to the visitor that the page is for the user thinking about getting the breed, not for the user that already owns the dog 
++ Below the header and navigation menu (which is discussed in the sections above) the user will find some additional general information about the page and it’s content – with the purpose of making it even clearer to the user that this is the page they were looking for. They will se the benefits of continuing reading and what they will gain when looking at the other content of the page. Hopefully this part will also make it crystal clear to the visitor that the page is for the user thinking about getting the breed, not for the user that already owns the dog 
 Also to validate the people behind the page 
 
 
