@@ -84,11 +84,25 @@ Another useful feature would have been to
 
 ## Testing
 
+The page hase been tested on 
+
+All the internal links work as they should, from all pages. The external links work and open in a new browser window as indented. 
+
+The contact form
+
 ## Validator testing
 
 + HTML
+
+![printscreen html validating](assets/images_readme/w3c_validator.jpg)
+
 + CSS
+
+![printscreen css validating](assets/images_readme/css-validator.jpg)
+
 + Accessibility using Lighthouse
+
+
 
 ## Unfixed bugs
 
@@ -96,7 +110,7 @@ From what I know there are no unfixed bugs, but the flex-box features were the b
 
 ## Deployment
 
-The link to the live project-site can be found here:
+The link to the live project-site can be found here: https://sofiawallq.github.io/awesome_aussies/
 
 ## Credits
 
