@@ -15,6 +15,12 @@ h2 {
   text-align: left;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /*Header*/
 .header-container {
   background-image: url(../images/header_image_aussie.jpg);
@@ -109,7 +115,7 @@ main {
   display: flex;
   max-width: 100%;
   height: auto;
-  margin-top: 30px;
+  margin: 2rem auto;
 }
 
 /*Links to external kennels*/
@@ -122,6 +128,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
 #kennels-link div {

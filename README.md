@@ -14,7 +14,7 @@ __Navigation Bar__
 
 + I decided to name it ”menu” in the drop down version on smaller devices, basically because of the fact that everybody is familiar with the term and what they use a menu for.
 
-+ The backgroundcolor for the navigation bar is picked from the header image so that they harmonize with each other. 
++ The background color for the navigation bar is picked from the header image so that they harmonize with each other. 
 
 
 
