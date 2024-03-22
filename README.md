@@ -8,6 +8,15 @@ Awesome Aussies is a websites that targets an audience that is thinking about ad
 
 ### Existing Features
 
+
+__The page header__
+
++ The landing page (featured on all pages) includes a header with a image of an Australian Shepherd, to quickly give the user a feeling of what the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content so that the visitor can quickly deside if it’s worth to continue scrolling.
+The chosen header-images also set the color-scheme for the rest of the page, to keep the layout consistent and harmonizing throughout the different features on the webpage.
+
+![printscreen header](assets/images_readme/header.jpg)
+
+
 __Navigation Bar__
 
 + The navigation bar is featured on all three pages of the websites and includes links to all the different pages. It helps the user find its way to the Home page/landing page, the About Page and a Contact page for further questions. 
@@ -17,16 +26,6 @@ __Navigation Bar__
 + I decided to name it ”menu” in the drop down version on smaller devices, basically because of the fact that everybody is familiar with the term and what they use a menu for.
 
 + The background color for the navigation bar is picked from the header image so that they harmonize with each other. 
-
-
-
-__The page header__
-
-+ The landing page (featured on all pages) includes a header with a image of an Australian Shepherd, to quickly give the user a feeling of what the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content so that the visitor can quickly deside if it’s worth to continue scrolling.
-The chosen header-images also set the color-scheme for the rest of the page, to keep the layout consistent and harmonizing throughout the different features on the webpage.
-
-![printscreen header](assets/images_readme/header.jpg)
-
 
 
 __Content of the home/landing page__
