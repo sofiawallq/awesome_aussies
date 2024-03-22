@@ -2,6 +2,8 @@
 
 Awesome Aussies is a websites that targets an audience that is thinking about adding a new family member, and are looking for some general knowledge about this particular breed – to be able to decide if this is the dog for them! It´s purpose is not to encourage to buy the dog, but to provide some help in making that decision and is supposed to function as a place of knowledge. It doens’t target the user who alreday own this type of dog but acts as a support for the newbies. Hopefully it will provide the understanding of whether this is the dog for them – or absolutely not the dog for them. 
 
+![printscreen responsive web page](assets/images_readme/responsivness.jpg)
+
 ## Features
 
 ### Existing Features
@@ -27,15 +29,19 @@ The chosen header-images also set the color-scheme for the rest of the page, to 
 
 
 
-__Content of the landing page__
+__Content of the home/landing page__
 
 + Below the header and navigation menu (which is discussed in the sections above) the user will find some additional general information about the page and it’s content – with the purpose of making it even clearer to the user that this is the page they were looking for. They will se the benefits of continuing reading and what they will gain when looking at the other content of the page. Hopefully this part will also make it crystal clear to the visitor that the page is for the user thinking about getting the breed, not for the user that already owns the dog 
-Also to validate the people behind the page 
+
++ Also to validate the people behind the page 
+
++ Below the text is another image of an Australian Shepherd - to get a visual element that breaks of the text and hopefully provoces a good feeling within the user. 
+
+![printscreen content on home page](assets/images_readme/content_home_page.jpg)
 
 
-
-Links to kennels 
-Below the text content and another image are some links to different validated kennels if the user is interested in learning more about the buying-process itself and have come a little further in their descission-making. If the time weren’t as limited I think it would have been good to create a entire new page about this in the menu to the user to chose from, but that would have made the project a little to big for the time at hand since it requres a lot of research and collecting info and data from a lot of external sources. 
+__Links to kennels__ 
++ Below the text and image on the home page are some links to different validated kennels, if the user is interested in learning more about the buying process itself and have come a little further in their descision making. If the time weren’t as limited I think it would have been good to create a entire new page about this in the menu to the user to chose from, but that would have made the project a little to big for the time at hand since it requres a lot of research and collecting info and data from a lot of external sources. 
 
 
 For this page the index.html file implements the content with additional styling found in the style.css file deployed through the assets-folder. 
@@ -49,23 +55,24 @@ __The Footer__
 
 Again the same color used as in the navigation menu and other features on the page
 
+![printscreen footer](assets/images_readme/footer.jpg)
 
 
 __About the breed Page__
 
-This page is probably the most valuable page to the user, since it contains
++ This page is probably the most valuable page to the user, since it contains
 
-The content of the about-page comes from the 
++ The content of the about-page comes from the 
 
 
 
 __Contact Page__
 
-Since the site can only hold some general information, the Contact Page is a chance for the user to ask other more specific questions they have about the breed that they didn’t find an answer to. The will be asked to provide their full name and e-mail adress so that the people behind the webpage will know whom and where to send the reply. 
++ Since the site can only hold some general information, the Contact Page is a chance for the user to ask other more specific questions they have about the breed that they didn’t find an answer to. The will be asked to provide their full name and e-mail adress so that the people behind the webpage will know whom and where to send the reply. 
 It also features a larger area for the question or questions – which is made up of additional rows to provide the user with the possibility to write some more content than what a single lie provides them with. 
-The Contact-form is responsive to all devices and the text changes size according to device to provide a better user experience. All input-text is required for the user to put in so 
++ The Contact-form is responsive to all devices and the text changes size according to device to provide a better user experience. All input-text is required for the user to put in so 
 
-This page gets its content from the contact.html file, and its looks and features from style.css. 
++ This page gets its content from the contact.html file, and its looks and features from style.css. 
 
 
 
