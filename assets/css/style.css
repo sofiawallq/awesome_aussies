@@ -18,14 +18,13 @@ h2 {
 /*Header*/
 .header-container {
   background-image: url(../images/header_image_aussie.jpg);
-  background-color: #ffffff;
+  background-color: #c8d9e9;
   position: relative;
   width: 100%;
   height: 19rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: auto;
 
 }
 
@@ -55,9 +54,11 @@ nav {
 #navigation-menu {
   text-align: left;
   font-size: 110%;
-  letter-spacing: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
   list-style-type: none;
   text-decoration: none;
+  padding-left: 5px;
   margin: 0;
 }
 
@@ -101,25 +102,29 @@ main {
 }
 
 #welcome {
-  margin: 10px;
+  margin: 30px 10px 0 10px;
 }
 
 #img-landing-page {
   display: flex;
   max-width: 100%;
-  max-height: 100%;
-  margin-bottom: 30px;
+  height: auto;
+  margin-top: 30px;
 }
 
 /*Links to external kennels*/
 #kennels {
+  margin: 10px;
+  text-align: justify;
+}
+
+#kennels-link {
   display: flex;
   flex-direction: column;
-  position: relative;
   justify-content: space-around;
 }
 
-#kennels div {
+#kennels-link div {
   background-color: #c8d9e9;
   font-family: 'Courgette', sans-serif;
   font-weight: bold;
@@ -133,7 +138,7 @@ main {
 /*About page*/
 .about-text {
   display: block;
-  margin: 10px;
+  margin: 30px 10px 0 10px;
 }
 
 .about-text p {
@@ -242,7 +247,7 @@ footer {
   }
 
   .menu-item {
-    padding: 10px 10px;
+    padding: 10px 15px;
   }
 
   #navigation-menu {
@@ -254,23 +259,16 @@ footer {
     display: none;
   }
 
-  /*Main content*/
-  main {
-    display: block;
-    position: relative;
-    margin-top: 20px;
-  }
-
+  /*About page*/
   .aussie-images {
     max-width: 80%;
     margin: 40px auto;
   }
 
   /*Links to external kennels*/
-  #kennels {
+  #kennels-link {
     display: flex;
     flex-direction: row;
-    position: relative;
     justify-content: space-around;
     padding: 10px 0;
 
@@ -307,6 +305,7 @@ footer {
 
     #headline {
       font-size: 5rem;
+      padding-left: 1rem;
     }
 
     #tagline-header {
@@ -320,11 +319,13 @@ footer {
       font-size: 150%;
     }
 
-    /*Main content*/
-    .about-text {
+    /*About page*/
+    .about-text,
+    #welcome,
+    #kennels {
       display: inline-block;
       font-size: 1.5rem;
-      margin: 20px;
+      margin: 20px 20px 0 20px;
     }
 
     .aussie-images {
@@ -362,7 +363,7 @@ footer {
     }
 
     #tagline-header {
-      margin: 21rem 5.5rem 1rem 1rem;
+      margin: 18rem 5.5rem 1rem 1rem;
     }
 
     /*Navigation menu*/
@@ -371,9 +372,15 @@ footer {
     }
 
     /*About page*/
-    .about-text {
+    .about-text,
+    #welcome,
+    #kennels {
       margin: auto 30px;
       font-size: 1.7rem;
+    }
+
+    #kennels-link {
+      font-size: 2rem;
     }
 
     /*Contact page*/
@@ -400,4 +407,5 @@ footer {
     #contact-form {
       font-size: 1rem;
     }
-}
+
+  }
