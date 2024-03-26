@@ -49,13 +49,13 @@ __Links to kennels__
 
 + Below the text and image on the home page are some links to different kennels, if the user is interested in learning more about the buying process itself and have come a little further in their descision making. 
 
-+There is also an embedded link to the Contact page if the user is interested in tips on more kennels.
++ There is also an embedded link to the Contact page if the user is interested in tips on more kennels.
 
 + All the external links open up in a new tab so that the user still have easy access to the original webpage.
 
 + The links have the same color and font as other elements on the page and lives in a responsive flexbox to adjust from row to column depending on device.
 
-! [printscreen links to kennels](assets/images_readme/kennels_links.jpg)
+![printscreen links to kennels](assets/images_readme/kennels_links.jpg)
 
 
 For the entire home page the index.html file implements the content, with additional styling found in the style.css file deployed through the assets-folder. 
@@ -87,30 +87,31 @@ __About the breed Page__
 
 __Contact Page__
 
-+ Since the site can only hold some general information, the Contact Page is a chance for the user to ask other more specific questions they have about the breed that they didn’t find an answer to. The will be asked to provide their full name and e-mail adress so that the people behind the webpage will know whom and where to send the reply. 
-It also features a larger area for the question or questions – which is made up of additional rows to provide the user with the possibility to write some more content than what a single lie provides them with. 
-+ The Contact-form is responsive to all devices and the text changes size according to device to provide a better user experience. All input-text is required for the user to put in so 
++ Since the site only holds some general information, the Contact Page is a chance for the user to ask other more specific questions about the breed that they didn’t find an answer to on the webpage. They will be asked to provide their full name and e-mail adress so that the people behind the webpage will know whom and where to send the reply. 
+
++ It also features a larger input-area for the questions – which is made up of additional rows to provide the user with the possibility to write more content than single line provides them with. 
+
++ The Contact-form is responsive to all devices and the text changes size according to device to provide a better user experience. 
+
++ All input-text is required for the user to put in to verify that they are actual human beings. 
 
 + This page gets its content from the contact.html file, and its looks and features from style.css. 
 
 
-
 ### Features left to Implement
 
-Possible additional pages 
-For this website to be of actual use to a user that is about to purschase a new dog, a page filled with links to different types of kennels would be a good idea som that the user can navigate further once the current webpage has filled it’s purpose. 
-Another useful feature would have been to 
++ For this website to be of actual use to a user that is about to purschase a new dog, a page filled with links to different types of kennels would be a good idea so that the user can navigate further once the current webpage has filled it’s purpose. But that would require a lot of research and collecting data from a lot of external sources. 
 
-If the time weren’t as limited I think it would have been good to create a entire new page about this in the menu to the user to chose from, but that would have made the project a little to big for the time at hand since it requres a lot of research and collecting info and data from a lot of external sources. 
++ Another useful feature would have been to added more pages that separates the about the breed content in the navigation bar itself - for example if you're only interested in how you train this particular breed you could find your way to that content right away without having to scroll through other sections of text. 
 
 
 ## Testing
 
 The page hase been tested on 
 
-All the internal links work as they should, from all pages. The external links work and open in a new browser window as indented. 
+All the internal links work as they should, from all pages. The external links works as well and open in a new browser window as indented. 
 
-The contact form
+The contact form 
 
 ## Validator testing
 
@@ -148,8 +149,3 @@ The link to the live project-site can be found here: https://sofiawallq.github.i
 + All the pictures used in the project – the header image, the image used in the content on the landing page and the images in the About the breed-section were all taken from the Open Source page [Pexels](https://www.pexels.com/sv-se/). 
 + All of the images were run through [Tinypng](https://tinypng.com/) to make them “lighter” and adapted for display on the web – so that the page doesn’t take to long to load because of heavy image files. 
 + Some of the images used were cropped with the help of Photoshop Express. 
-
-
-
-Imperative mood missed in commit messages for the first part of the porject, lost in translation to swedish so didn’t understand that until halfway through the project
-
