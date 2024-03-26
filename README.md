@@ -11,7 +11,7 @@ Awesome Aussies is a websites that targets an audience that is thinking about ad
 
 __The page header__
 
-+ The landing page (featured on all pages) includes a header with a image of an Australian Shepherd, to quickly give the user a feeling of what the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content so that the visitor can quickly deside if it’s worth to continue scrolling.
++ Every page on the site includes a header with a image of an Australian Shepherd, to quickly give the user a feeling of what the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content, so that the visitor can quickly deside if it’s worth to continue scrolling.
 The chosen header-images also set the color-scheme for the rest of the page, to keep the layout consistent and harmonizing throughout the different features on the webpage.
 
 ![printscreen header](assets/images_readme/header.jpg)
@@ -19,28 +19,43 @@ The chosen header-images also set the color-scheme for the rest of the page, to 
 
 __Navigation Bar__
 
-+ The navigation bar is featured on all three pages of the websites and includes links to all the different pages. It helps the user find its way to the Home page/landing page, the About Page and a Contact page for further questions. 
++ The navigation bar is featured on all three pages of the website and includes links to all the different pages. It helps the user find its way to the Home page/landing page, the About Page and a Contact page for further questions. 
 
-+ The navigation bar is responsive and allows the user to jump between pages without having to use the ”back”-button. Furthermore the navigation bar has a drop down function for mobile devices so that it doesn’t take up to much space on smaller devices. On larger devices such as tablets and laptops it is responsive and changes size according to screen size. 
++ The navigation bar is responsive and allows the user to jump between pages without having to use the ”back”-button. Furthermore the navigation bar has a drop down function for mobile devices so that it doesn’t take up to much space on smaller devices. On larger devices such as tablets and laptops it is responsive and changes font size according to screen size. 
 
-+ I decided to name it ”menu” in the drop down version on smaller devices, basically because of the fact that everybody is familiar with the term and what they use a menu for.
++ I decided to simply name the navigation bar ”menu” in the drop down version on smaller devices, basically because of the fact that everybody is familiar with the term and the purpose of a menu.
 
 + The background color for the navigation bar is picked from the header image so that they harmonize with each other. 
+
++ The current page that the user is viewing is underlined in the navigation bar to further simplify navigation on the site for the user.
+
+![printscreen navigation bar](assets/images_readme/navigation_bar.jpg)
+
+![printscreen drop down menu](assets/images_readme/navigation_menu_mobile_device.jpg)
 
 
 __Content of the home/landing page__
 
-+ Below the header and navigation menu (which is discussed in the sections above) the user will find some additional general information about the page and it’s content – with the purpose of making it even clearer to the user that this is the page they were looking for. They will se the benefits of continuing reading and what they will gain when looking at the other content of the page. Hopefully this part will also make it crystal clear to the visitor that the page is for the user thinking about getting the breed, not for the user that already owns the dog 
++ Below the header and navigation menu the user will find some additional general information about the page and it’s content – with the purpose of making it even clearer to the user that this is the page they were looking for. They will see the benefits of continuing reading and what they will gain when looking at the other content of the page. Hopefully this part will also make it crystal clear to the visitor that the page is for the user thinking about getting the breed, not for the user that already owns the dog.
 
-+ Also to validate the people behind the page 
++ The content on the landing page is also to validate the people behind the page so that the user will get a sense of that the creator knows what he/she is talking about. 
 
-+ Below the text is another image of an Australian Shepherd - to get a visual element that breaks of the text and hopefully provoces a good feeling within the user. 
++ Below the text on the landing page is another image of an Australian Shepherd - mainly to have a visual element that breaks up the text and hopefully produces a good feeling within the user. 
 
 ![printscreen content on home page](assets/images_readme/content_home_page.jpg)
 
 
 __Links to kennels__ 
-+ Below the text and image on the home page are some links to different validated kennels, if the user is interested in learning more about the buying process itself and have come a little further in their descision making. If the time weren’t as limited I think it would have been good to create a entire new page about this in the menu to the user to chose from, but that would have made the project a little to big for the time at hand since it requres a lot of research and collecting info and data from a lot of external sources. 
+
++ Below the text and image on the home page are some links to different kennels, if the user is interested in learning more about the buying process itself and have come a little further in their descision making. 
+
++ All the external links open up in a new tab so that the user still have easy access to the page.
+
++ The links have the same color and font as other elements on the page and lives in a responsive flexbox to adjust from row to column depending on device.
+
+
+
+
 
 
 For this page the index.html file implements the content with additional styling found in the style.css file deployed through the assets-folder. 
@@ -80,6 +95,8 @@ It also features a larger area for the question or questions – which is made u
 Possible additional pages 
 For this website to be of actual use to a user that is about to purschase a new dog, a page filled with links to different types of kennels would be a good idea som that the user can navigate further once the current webpage has filled it’s purpose. 
 Another useful feature would have been to 
+
+If the time weren’t as limited I think it would have been good to create a entire new page about this in the menu to the user to chose from, but that would have made the project a little to big for the time at hand since it requres a lot of research and collecting info and data from a lot of external sources. 
 
 
 ## Testing
