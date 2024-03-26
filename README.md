@@ -49,35 +49,40 @@ __Links to kennels__
 
 + Below the text and image on the home page are some links to different kennels, if the user is interested in learning more about the buying process itself and have come a little further in their descision making. 
 
-+ All the external links open up in a new tab so that the user still have easy access to the page.
++There is also an embedded link to the Contact page if the user is interested in tips on more kennels.
+
++ All the external links open up in a new tab so that the user still have easy access to the original webpage.
 
 + The links have the same color and font as other elements on the page and lives in a responsive flexbox to adjust from row to column depending on device.
 
+! [printscreen links to kennels](assets/images_readme/kennels_links.jpg)
 
 
-
-
-
-For this page the index.html file implements the content with additional styling found in the style.css file deployed through the assets-folder. 
-
+For the entire home page the index.html file implements the content, with additional styling found in the style.css file deployed through the assets-folder. 
 
 
 __The Footer__
 
-+ The footer section includes links to different social media platforms - relevant to the content of the website. They open in a new tab to allow for easy navigation and so that the user can easily finds it’s way back to the webpage without having to use the ”back” tab.
-+ If the site were to be deployed and managed for a long period of time – the footer with it’s social media icons would lead the user to different forums and member pages on Facebook with the concept of ”Awesome Aussies” in mind – a place for the user to connect with likeminded and a place to ask all questions concerning their dogs. 
++ The footer section includes links to different social media platforms - relevant to the content of the website. They open in a new tab to allow for easy navigation so that the user can easily finds it’s way back to the webpage without having to use the ”back” tab.
 
-Again the same color used as in the navigation menu and other features on the page
++ If the site were to be deployed "for real" and managed for a long period of time – the footer with it’s social media icons would lead the user to different forums and member pages on Facebook, Instagram and so on with the concept of ”Awesome Aussies” in mind – a place for the user to connect with like-minded and a place to ask other owners all questions concerning their dogs. But for now the social media links directs the user to the offical sites.
+
++ Again the same color as in the navigation menu and other features on the page is used. 
 
 ![printscreen footer](assets/images_readme/footer.jpg)
 
 
 __About the breed Page__
 
-+ This page is probably the most valuable page to the user, since it contains
++ This page is probably the most valuable page to the user, since it contains all the useful information about the breed. 
 
-+ The content of the about-page comes from the 
++ The content of the about-page comes from other pages on the web (see content credits further down), since the function and purpose rather than the actual content of the text is in focus for this assignment. 
 
++ Evry paragraph has a picture below it so that the user can rest their eyes before jumping on the next section of text. The images are responsive in size to adjust according to screen size. 
+
++ This page gets it's text and image content from the about.html file, with additional styling form style.css. All images are found in the image folder. 
+
+![printscreen of content on the about page](assets/images_readme/contet_about_page.jpg)
 
 
 __Contact Page__

@@ -327,6 +327,11 @@ footer {
       font-size: 150%;
     }
 
+    /*Links to external kennels*/
+    #kennels-link div {
+      font-size: 1.5rem;
+    }
+
     /*About page*/
     .about-text,
     #welcome,
@@ -387,7 +392,7 @@ footer {
       font-size: 1.7rem;
     }
 
-    #kennels-link {
+    #kennels-link div {
       font-size: 2rem;
     }
 
