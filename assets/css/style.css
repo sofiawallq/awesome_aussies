@@ -44,7 +44,7 @@ h2 {
   background-color: rgba(255, 255, 255, 0.7);
   position: relative;
   padding: 10px 10px;
-  margin: 8.5rem 5rem 0.5rem 0.5rem;
+  margin: 8rem 5rem 0.5rem 0.5rem;
 }
 
 /*Navigation menu*/
@@ -229,9 +229,8 @@ footer {
 /*Media query for larger phones (340px and up)*/
 @media screen and (min-width: 340px) {
   #tagline-header {
-    margin: 9rem 5rem 1rem 1rem;
+    margin: 9rem 5rem 0.5rem 0.5rem;
   }
-
 }
 
 /*Media query for tablets and larger (768px and up)*/

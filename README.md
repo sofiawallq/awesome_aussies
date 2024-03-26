@@ -97,6 +97,7 @@ __Contact Page__
 
 + This page gets its content from the contact.html file, and its looks and features from style.css. 
 
+![printscreen contact form](assets/images_readme/contact_form.jpg)
 
 ### Features left to Implement
 
@@ -107,23 +108,27 @@ __Contact Page__
 
 ## Testing
 
-The page hase been tested on 
++ The page has been tested on a row of different devices - such as phones, tablets and laptops. When it comes to phones it has been viewed on about five different models to make sure it looks the same depending on the brand and screen size of the phone. 
 
-All the internal links work as they should, from all pages. The external links works as well and open in a new browser window as indented. 
++ The internal links have been tested on both laptop and different mobile devices and works as they should, from all different pages.
 
-The contact form 
++ The external links works as well and they all open in a new browser window as indented. 
+
++ The contact form is responsive and the required part on every row of input works as i should. The autocomplete function also works as i should. When pressing "Send" the form returns information that the form has been prepared and submitted correctly. 
+
++ Overall the layout and functions are easy to access and the page has a clean and simple layout which enables easy acces to all parts of the site for the user. 
 
 ## Validator testing
 
-+ HTML
++ HTML - no errors were returned when the page was tested through the official [W3C validator](https://validator.w3.org/).
 
 ![printscreen html validating](assets/images_readme/w3c_validator.jpg)
 
-+ CSS
++ CSS - one error was returned when tested through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/), and that was a curly bracket missing. Tricky to spot when in the middle of coding, but easy to fix. 
 
 ![printscreen css validating](assets/images_readme/css-validator.jpg)
 
-+ Accessibility using Lighthouse
++ When testing the accessibility using Lighthouse for Chrome (https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv), everything came back at 100% accept for the Perfomance which at first came in at a lousy 70%. This was due to the image sizes on mainly the header image and the image on the home page which were waaay to big for pretty much every screen size. This was fixed with resizing both images and replacing the old ones in the image folder. After resizing the Perfomance came in at a much more pleasing ...
 
 
 
@@ -132,6 +137,12 @@ The contact form
 From what I know there are no unfixed bugs, but the flex-box features were the biggest challenge for the project. Also finding the right margins and size of the content for different devices to make the user experience comfortable proved to be the biggest challenge in this particular project – mainly because the feature consists of only texts and images. Some more interactive features with videos and maybe a quiz-section would have added some more value to the user, but the main focus of the page is to show that the basic structure and features of HTML and CSS have been implemented.
 
 ## Deployment
+
+The website was deployed using a hosting platform in the form of GitHub. The steps to deploy are as follows:
++ In the GitHub repository of the project, navigate to the Settings-tab
++ Select Pages in the left hand menu and in the Source drop-down menu select Deploy from a branch
++ In the Branch section below chose the main branch
++ When the main branch is selected the GitHub repository will automatically refresh and after a little while you will find the Deployed page on the right hand side with a detailed list of every updated deployment going forward. 
 
 The link to the live project-site can be found here: https://sofiawallq.github.io/awesome_aussies/
 
