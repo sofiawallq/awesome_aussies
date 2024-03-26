@@ -103,7 +103,7 @@ __Contact Page__
 
 + For this website to be of actual use to a user that is about to purschase a new dog, a page filled with links to different types of kennels would be a good idea so that the user can navigate further once the current webpage has filled it’s purpose. But that would require a lot of research and collecting data from a lot of external sources. 
 
-+ Another useful feature would have been to added more pages that separates the about the breed content in the navigation bar itself - for example if you're only interested in how you train this particular breed you could find your way to that content right away without having to scroll through other sections of text. 
++ Another useful feature would have been to added more pages that splits up the about the breed content in the navigation bar itself - for example if you're only interested in how to train this particular breed you could find your way to that content right away in the navigation bar without having to scroll through other sections of text. 
 
 
 ## Testing
@@ -134,7 +134,7 @@ __Contact Page__
 
 ## Unfixed bugs
 
-From what I know there are no unfixed bugs, but the flex-box features were the biggest challenge for the project. Also finding the right margins and size of the content for different devices to make the user experience comfortable proved to be the biggest challenge in this particular project – mainly because the feature consists of only texts and images. Some more interactive features with videos and maybe a quiz-section would have added some more value to the user, but the main focus of the page is to show that the basic structure and features of HTML and CSS have been implemented.
+From what I know there are no unfixed bugs, but the flex-box features were the biggest challenge for the project. Also finding the right margins and size of the content for different devices to make the user experience comfortable proved to be the biggest challenge in this particular project – mainly because the content on the page consists of only texts and images. Some more interactive features with videos and maybe a quiz-section would have added some more value to the user, but the main focus of the page is to show that the basic structure and features of HTML and CSS have been implemented.
 
 ## Deployment
 
