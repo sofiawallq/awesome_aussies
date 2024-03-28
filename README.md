@@ -128,7 +128,7 @@ __Contact Page__
 
 ![printscreen css validating](assets/images_readme/css-validator.jpg)
 
-+ When testing the accessibility using Lighthouse for Chrome (https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv), everything came back at 100% accept for the Perfomance which at first came in at a lousy 70%. This was due to the image sizes on mainly the header image and the image on the home page which were waaay to big for pretty much every screen size. This was fixed with resizing both images and replacing the old ones in the image folder. After resizing the Perfomance came in at a much more pleasing ...
++ When testing the accessibility using [Lighthouse for Chrome](https://chromewebstore.google.com/detail/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv), everything came back at 100% accept for the Perfomance which at first came in at a lousy 70%. This was due to the image sizes on mainly the header image and the image on the home page which were waaay to big for pretty much every screen size. This was fixed with resizing both images and replacing the old ones in the image folder. After resizing the Perfomance came in at a much more pleasing ...
 
 
 
