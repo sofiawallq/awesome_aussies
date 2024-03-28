@@ -1,6 +1,6 @@
 # Awesome Aussies
 
-Awesome Aussies is a website targeting an audience that's thinking about adding a new family member in form of a dog - and are looking for some general knowledge about this particular breed to figure out if it's the right breed for them. The websites purpose is not to encourage anybody to buy the dog, but to provide some help in making the decision and is supposed to simply function as a place of knowledge. It doesn’t target the user who already own this type of dog, but acts as a support for the curious potential owner. Hopefully it will provide some understanding to whether this is the dog for them – or absolutely not the dog for them. 
+Awesome Aussies is a website targeting an audience that's thinking about adding a new family member in form of a dog, and are looking for some general knowledge about this particular breed. The websites purpose is not to convince anybody to buy this breed, but to provide some helpful information and function as a place of knowledge to help with the decision-making. It doesn’t target the user who already own this type of dog but acts as a support for the curious potential owner. Hopefully it will provide some understanding to whether this is the dog for them – or absolutely not the dog for them. 
 
 ![printscreen responsive web page](assets/images_readme/responsivness.jpg)
 
@@ -11,7 +11,7 @@ Awesome Aussies is a website targeting an audience that's thinking about adding 
 
 __The page header__
 
-+ Every page on the site includes a header with a image of an Australian Shepherd, to quickly give the user a feeling of what the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content, so that the visitor can quickly decide if it’s worth to continue scrolling.
++ Every page on the site includes a header with an image of an Australian Shepherd, to quickly give the user a feeling of what the site is all about. The header also includes the name/title of the webpage and a text overlay that sums up the content, so that the visitor can quickly decide if it’s worth to continue scrolling.
 
 + The chosen header-image sets the colour-scheme for the rest of the page, to keep the layout consistent and harmonizing throughout the different features on the webpage.
 
@@ -41,7 +41,7 @@ __Content of the home/landing page__
 
 + Below the header and navigation menu the user will find some additional general information about the page and its content – with the purpose of making it even clearer to the user that this is the page they were looking for. They will see the benefits of continuing to read, and what they will gain when looking at the other content of the page. Hopefully this information will also make it crystal clear to the visitor that the page is for the user thinking about getting the breed, not for the user that already owns the dog.
 
-+ The content on the landing page also validates the people behind the page, so that the user will get a sense of that the creator knows what he/she is talking about. 
++ The content on the landing page also validates the people behind the page, so that the user will get a sense of that the creators knows what they are talking about. 
 
 + Below the text on the landing page is another image of an Australian Shepherd - mainly to have a visual element that breaks up the text and hopefully evokes a good feeling within the user. 
 
@@ -149,7 +149,7 @@ __Contact Page__
 
 ![printscreen lighthouse test](assets/images_readme/lighthouse_home_about_pages.jpg)
 
-1[printscreen lighthouse test](assets/images_readme/lighthouse_contact_page.jpg)
+![printscreen lighthouse test](assets/images_readme/lighthouse_contact_page.jpg)
 
 
 ## Unfixed bugs
