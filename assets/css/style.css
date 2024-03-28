@@ -23,7 +23,7 @@ h2 {
 
 /*Header*/
 .header-container {
-  background-image: url(../images/header_image_aussie_2.jpg);
+  background-image: url(../images/header_image_aussie.png);
   background-color: #c8d9e9;
   position: relative;
   width: 100%;
@@ -229,7 +229,7 @@ footer {
 /*Media query for larger phones (340px and up)*/
 @media screen and (min-width: 340px) {
   #tagline-header {
-    margin: 9rem 5rem 0.5rem 0.5rem;
+    margin: 10rem 5rem 0.5rem 0.5rem;
   }
 }
 
